@@ -43,7 +43,7 @@ const NavigationBar = () => {
         <div className='Navbar'>
             <div className="LeftSection">
                 <img className="Logo" src="/images/Leap.png" alt="logo"></img>
-                <button className="HireMe"><img className='img' src='https://www.svgrepo.com/show/108614/linkedin.svg'/>Hire Me</button>
+                <button className="HireMe"><img className='img' src='/images/Vector.png'/>Hire Me</button>
             </div>
             <div className="NavMenu">
                 {

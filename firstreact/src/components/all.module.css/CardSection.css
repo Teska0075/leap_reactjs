@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.CardSections{
+    margin-top: 124px;
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.CardSectionL{
+    width: 50%;
+}
+.CardSectionR{
+    width: 50%;
+}
+
+.CardItems{
+    margin-bottom: 75px;
+}
+
+.pic{
+    width: 100%;
+}
+.date{
+    margin-top: 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #424242;
+}
+.title{
+    margin-top: 14px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #D05270;
+}
+.para{
+    margin-top: 12px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #424242;
+}
+.BtnRead{
+    margin-top: 30px;
+    width: 116px;
+    height: 25px;
+    background: none;
+    border-bottom: 1px solid #D05270;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #D05270;
+    transition: all 0.1s;
+}
+.BtnRead:hover{
+    scale: 1.1;
+}
+
