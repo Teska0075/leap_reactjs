@@ -66,6 +66,10 @@ button{
     font-weight: 500;
     font-size: 12px;
     line-height: 15px;
+    transition: all 0.1s;
+}
+button:hover{
+    scale: 1.1;
 }
 .BtnTwttr{
     background-color: #47ACDF;

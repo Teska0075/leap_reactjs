@@ -7,18 +7,27 @@
 
 .CardSections{
     margin-top: 124px;
-    /* background-color: aqua; */
     width: 100%;
+    /* height: 1800px; */
     display: flex;
-    gap: 20px;
+    flex-wrap: wrap;
+    /* background-color: beige; */
 }
 
 .CardSectionL{
-    width: 50%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-.CardSectionR{
-    width: 50%;
+.CardItems{
+    width: 49%;
+    display: flex;
+    flex-direction: column;
 }
+/* .CardSectionR{
+    width: 50%;
+} */
 
 .CardItems{
     margin-bottom: 75px;

@@ -5,23 +5,32 @@ const CardItemsL = [
         img1:"/images/mac.png"
     },
     {
-        img1:"/images/mac.png"
+        img1:"/images/macbook.png"
     },
     {
         img1:"/images/mac.png"
-    }
-];
-const CardItemsR = [
-    {
-        img2:"/images/macbook.png"
     },
     {
-        img2:"/images/macbook.png"
+        img1:"/images/macbook.png"
     },
     {
-        img2:"/images/macbook.png"
+        img1:"/images/mac.png"
+    },
+    {
+        img1:"/images/macbook.png"
     }
 ];
+// const CardItemsR = [
+//     {
+//         img2:"/images/macbook.png"
+//     },
+//     {
+//         img2:"/images/macbook.png"
+//     },
+//     {
+//         img2:"/images/macbook.png"
+//     }
+// ];
 
 const CardSection = () => {
     return (
@@ -41,7 +50,7 @@ const CardSection = () => {
                 })
             }
             </div>
-            <div className='CardSectionR'>
+            {/* <div className='CardSectionR'>
             {
                 CardItemsR.map((item) => {
                     return (
@@ -55,7 +64,7 @@ const CardSection = () => {
                     )
                 })
             }
-            </div>
+            </div> */}
         </div>
     )
 };
