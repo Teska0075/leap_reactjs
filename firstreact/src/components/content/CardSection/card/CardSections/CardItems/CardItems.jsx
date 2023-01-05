@@ -1,38 +1,34 @@
 import CardItemContents from "./CardItemContents/CardItemContents";
 
 const CardItemsL = [
-    {
-        img1:"/images/mac.png"
-    },
-    {
-        img1:"/images/macbook.png"
-    },
-    {
-        img1:"/images/mac.png"
-    },
-    {
-        img1:"/images/macbook.png"
-    },
-    {
-        img1:"/images/mac.png"
-    },
-    {
-        img1:"/images/macbook.png"
-    }
+  {
+    img: "/images/mac.png",
+  },
+  {
+    img: "/images/macbook.png",
+  },
+  {
+    img: "/images/mac.png",
+  },
+  {
+    img: "/images/macbook.png",
+  },
+  {
+    img: "/images/mac.png",
+  },
+  {
+    img: "/images/macbook.png",
+  },
 ];
 
 const CardItems = () => {
+  return CardItemsL.map((item) => {
     return (
-        <div className='CardItems'>
-            {
-                CardItemsL.map((item) => {
-                    return (
-                        <CardItemContents image={item.img1}/>
-                    );
-                })
-            }
-        </div>
+      <div className="CardItems">
+        <CardItemContents image={item.img} />
+      </div>
     );
+  });
 };
 
 export default CardItems;

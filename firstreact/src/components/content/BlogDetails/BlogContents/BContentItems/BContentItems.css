@@ -1,0 +1,23 @@
+.BlogTitle1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 51px;
+  color: #3a0ca3;
+}
+.BlogTitle2 {
+  margin-top: 186px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 51px;
+  color: #3a0ca3;
+}
+.BlogContext {
+  margin-top: 70px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #424242;
+}

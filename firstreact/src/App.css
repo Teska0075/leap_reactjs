@@ -6,35 +6,4 @@
   display: flex;
   flex-direction: column;
   padding-top: 66px;
-
-}
-
-.users-info{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 55px;
-}
-
-.user{
-  margin: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  gap: 50px;
-  width: 500px;
-  height: 200px;
-  background-color: #282c34;
-  border-radius: 20px;
-  box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.75);
-  transition: all 1s;
-}
-.user:hover{
-  scale: 2;
-}
-.user img{
-  width: 150px;
-  height: 150px;
-  border-radius: 20px;
 }
