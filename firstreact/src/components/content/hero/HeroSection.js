@@ -1,14 +1,12 @@
 import '../../all.module.css/HeroSection.css';
 import LeftSectionHero from './LeftSectionHero/LeftSectionHero';
-
+import RightSectionHero from './RightSectionHero/RightSectionHero';
 
 const HeroSection = () => {
     return (
         <div className='Hero'>
             <LeftSectionHero/>
-            <div className='RightSectionHero'>
-                <img src='/images/Saly.png' alt='pic'/>
-            </div>
+            <RightSectionHero/>
         </div>
     )
 }
