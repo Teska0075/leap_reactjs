@@ -1,16 +1,14 @@
 import logo from "./logo.svg";
-import "./App.css";
-
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import "./App.scss";
 
 import Home from "./components/pages/home/Home";
 import Detail from "./components/pages/detail/Detail";
-// import { Button } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 
 function App() {
-  return <Home />;
+  return (
+    <Button variant="primary">Click here!</Button>
+  );
 }
 
 export default App;
