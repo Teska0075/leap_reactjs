@@ -1,4 +1,4 @@
-import "../../../all.module.css/CardSection.css";
+import "../../../../all.module.css/CardSection.css";
 import CardSections from "./CardSections/CardSections";
 
 const CardSection = () => {

@@ -1,16 +1,14 @@
 import NavigationBar from "../../header/navigation/NavigationBar";
 import HeroSection from "../../content/hero/HeroSection";
-import CardNavigation from "../../content/CardSection/Navigation/CardNavigation";
-import CardSection from "../../content/CardSection/card/CardSection";
 import Footer from "../../footer/Footer";
+import CardCom from "../../content/CardSection/CardCom/CardCom";
 
 const Home = () => {
   return (
     <>
       <NavigationBar />
       <HeroSection />
-      <CardNavigation />
-      <CardSection />
+      <CardCom />
       <Footer />
     </>
   );

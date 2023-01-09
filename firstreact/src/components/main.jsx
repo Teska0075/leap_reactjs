@@ -1,11 +1,17 @@
-const Test = () => {
+import React from "react";
+import { Button } from "react-bootstrap";
+
+const Btn = (props) => {
   return (
-    <div>
-      <h1>asdasd</h1>
-      <p>asdasd</p>
-      <h6></h6>
-    </div>
+    <Button
+      variant={props.variant}
+      onClick={() => {
+        props.handleClick(props.title);
+      }}
+    >
+      {props.title}
+    </Button>
   );
 };
 
-export default Test;
+export default Btn;

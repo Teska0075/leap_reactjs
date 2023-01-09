@@ -1,4 +1,4 @@
-import CardItems from "../../../CardSection/card/CardSections/CardItems/CardItems";
+import CardItems from "../../../CardSection/CardCom/card/CardSections/CardItems/CardItems";
 import "./BContentItems.css";
 import ContentItem1 from "./ContentItem/ContentItem1/ContentItem1";
 
