@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="container d-flex flex-column justify-content-cente gap-4">
-      <h1>User Informations</h1>
+      <h1 style={{ color: "red" }}>MISSING</h1>
       <Search handleChange={changeText} />
       <CardList users={userList} />
     </div>
